@@ -1,0 +1,126 @@
+body{
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+}
+.blue-text-color{
+    color: #028FB2;
+}
+.font-1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.link-btn{
+    background-color: #FFB263;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color:white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.flexible-content{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-width h1{
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid #FFB263;
+    padding-left: 10px;
+    font-size: 60px;
+}
+.half-width img{
+    width: 50%;
+    margin-top: -50px;
+}
+.flexible-item{
+    display: flex;
+    margin: 5%;    
+}
+.item-area{
+    width: 30%;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    padding:30px 35px;
+    border-radius: 15px;
+}
+#bg-color-1{
+    background-color: #d2e9ff;
+}
+#bg-color-2{
+    background-color: #fae7ff;
+}
+#bg-color-3{
+    background-color: #ffe3d2;
+}
+.item-area-title{
+    text-align: center;
+    font-size: 40px;
+}
+.item-area img{
+    width: 50%;
+    margin-bottom: -20px;
+}
+.item-area h3{
+    font-size: 24px;
+}
+.item-area p{
+    font-size: 16px;
+}
+.mid-image-1{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: left;
+    margin-left: 20px;
+}
+.mid-area{
+    width: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-bottom: 50px;
+}
+.mid-area img{
+    width: 100%;    
+}
+.mid-area h1{
+    font-size: 36px;
+}
+.mid-area p{
+    font-size: 16px;
+    width: 100%;
+}
+.mid-image-2{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 150px 150px;
+    background-position: right bottom;
+    margin-right: 20px;
+}
+.dev-portfolio{
+    border-radius: 40px;
+}
+footer{
+    background-color: #000000;
+    text-align: center;
+    padding: 10px;
+}
+footer h1{
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+.red-color{
+    color: #FFB263;
+}
+.footer-small-text{
+    font-size: 12px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,27 @@
+.author{
+    color: red;
+}
+.blog{
+    background-color: seagreen;
+    border-left: 5px solid #e98a0f;
+    border-radius: 10px; 
+    margin: 10px 20px; 
+    padding: 2px 10px 5px 10px;
+}
+h1{
+    background-color: steelblue;
+}
+.blog p{
+    color: bisque;
+    border: 2px dotted black;
+    border-radius: 0px 10px; 
+    text-align: justify;
+}
+.blog-title{
+    text-align: center;
+    color: #3e3bfd;
+    font-style: italic;
+}
+#goat{
+    color: red;
+}
