@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 7 CSS</title>
+    <style>
+        .field{
+            border: 2px solid;
+            width:900px;
+            height: 500px;
+            border-radius: 400px;
+            background-color: yellowgreen;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+        .bat {
+            width: 290px;
+            transition: transform .2s ease-in;
+        }
+        .field:hover .bat{
+            transform: rotate(-60deg);
+            transform-origin: top right;
+        }
+        .ball{
+            width: 50px;
+            height: 50px;
+            background-image: linear-gradient(red, #636926);
+            border: 2px solid;
+            border-radius: 50px;
+            position: relative;
+            left: 432px;
+            transition: transform .2s ease-out .2s;
+        }
+        .field:hover .ball{
+            transform: translate(500px, -300px);
+        }
+        /* .box{
+             width: 100px;           
+             height: 100px;
+             border: 2px solid red;
+
+             background-color: cornflowerblue;
+             transition: width .5s , height .5s, transform .5s  ;
+        }
+        .box:hover{
+            width: 200px;
+            height: 200px;
+            transform: rotate(180deg);
+        }
+        .container, .inner{
+            
+            height: 150px;
+            width: 150px;
+            border: 2px solid red;
+            
+                        
+        }
+        .container{
+        background-color: lightblue;
+        }
+        .inner{
+            background-color:lightcoral ;
+            transform: translate(50px, 30px) scale(.6) rotate(45deg);
+        } */
+
+       
+    </style>
+</head>
+<body>
+   <!-- <div class="box container">
+       <div class="inner">box-1</div>
+   </div>
+   <div class="box container">
+       <div class="inner">box-2</div>
+   </div>
+   <div class="box container">
+       <div class="inner">box-3</div>
+   </div>   -->
+
+   <!-- <div class="box">
+       <h3>Transition</h3>
+   </div>
+   <div class="box">
+       <h3>Transition</h3>
+   </div>
+   <div class="box">
+       <h3>Transition</h3>
+   </div> -->
+   <div class="field">
+       <img class="bat" src="bat.png" alt="">
+       <div class="ball"></div>
+    </div>
+       
+</body>
+</html>
