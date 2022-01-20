@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@500;700&display=swap');
+
+.font-1{
+    font-family: 'Roboto', sans-serif;
+    color: #3E3E3E;
+}
+.font-2{
+    font-family: 'Bebas Neue', cursive;
+}
+.font-custom-1{
+    font-weight: 500;
+    font-size: 16px;
+}
+.font-custom-2{
+    font-weight: 400;
+    font-size: 80px;
+}
+.font-custom-3{
+    font-weight: 400;
+    font-size: 48px;
+}
+.font-custom-color-1{
+    color: #FABE4C;
+}
+.font-custom-color-2{
+    color: #363958;
+}
