@@ -1,0 +1,16 @@
+.bg-custom-color-1{
+    background-color:#feeae9;
+}
+.vertical-size{
+    height: 300px;
+}
+.categories{
+    width: 100px;
+}
+.buy-now-btn{
+    background-image: linear-gradient(#FF589B , #FF136F);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
