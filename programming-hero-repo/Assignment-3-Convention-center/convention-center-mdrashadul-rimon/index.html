@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <title>Notion Convention Center</title>
+  <!-- bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/a4093314a2.js" crossorigin="anonymous"></script>
+  <!-- custom stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- header and navigation -->
+  <header>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-search-autocomplete navbar-light bg-light">
+      <div class="container">
+        <div class="navbar-brand">
+          <h5 class="font-1 font-weight-4">Notion Convention Center</h5>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="input-group">
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0 font-1 font-weight-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#faq">FAQ</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- carousel slider -->
+    <section class="pt-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-dark" data-bs-interval="10000">
+              <img src="images/banners/banner-1.jpg" class=" d-block w-100 rounded opacity-50" width="50%" height="50%" alt="...">
+              <div class="carousel-caption d-sm-block d-md-block">
+                <h1>Welcome to Notion Convention Center</h1>
+                <p>Countries No.1 convention center ever. You are always welcome to take a tour at our site. We are
+                  cordially inviting you. or you can book now online.</p>
+                <a href="https://eventbooknow.com/" target="_blank">
+                  <button type="button" class="btn button-style-1">Book Now</button>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item bg-dark" data-bs-interval="2000">
+              <img src="images/banners/banner-2.jpg" class="d-block w-100 rounded opacity-50" alt="...">
+              <div class="carousel-caption d-sm-block d-md-block">
+                <h1>Some people look for a beautiful place. Others make a place beautiful.</h1>
+                <p>We are egarly waiting for your presence. Contact us now for any kinds of details.</p>
+                <a href="https://support.google.com/phoneapp/answer/2811745?hl=en" target="_blank">
+                  <button type="button" class="btn button-style-1">Make a Call</button>
+                </a>
+              </div>
+            </div>
+            <div class="carousel-item bg-dark">
+              <img src="images/banners/banner-3.jpg" class="d-block w-100 rounded opacity-50" alt="...">
+              <div class="carousel-caption d-sm-block d-md-block">
+                <h1>Perfection is not attainable, but if we chase perfection we can catch excellence.</h1>
+                <p>Appoint us with your flexible time. We are here to show you our services.</p>
+                <a href="https://www.gmail.com" target="_blank">
+                  <button type="button" class="btn button-style-1">Get a Mail</button>
+                </a>
+
+              </div>
+            </div>
+            <div class="carousel-item bg-dark">
+              <img src="images/banners/banner-4.jpg" class="d-block w-100 rounded opacity-50" alt="...">
+              <div class="carousel-caption d-sm-block d-md-block">
+                <h1>Simplicity is the ultimate sophistication.</h1>
+                <p>We are here to help you feel simple. Feel free to contact for a virtual tour.</p>
+                <a href="https://codepen.io/mdrashadul-rimon/full/vYgeEzr" target="_blank" rel="noopener noreferrer">
+                  <button type="button" class="btn button-style-1">Virtual Tour Registration</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  </header>
+  <!-- main goes here -->
+  <main>
+    <!-- services section Bonus -->
+    <section class="py-5" id="services">
+      <div class="container">
+        <h1 class="text-center pb-5">Our Services</h1>
+        <div class="row gy-3 row-cols-lg-4 row-cols-md-2 row-cols-1">
+          <div class="col text-center">
+            <img src="images/icons/service-icon-1.png" class="img-fluid pb-4" alt="...">
+            <h5>Special advice</h5>
+            <p>We advise customers on how to present the events more beautifully.</p>
+          </div>
+          <div class="col text-center">
+            <img src="images/icons/service-icon-2.png" class="img-fluid pb-4" alt="...">
+            <h5>7 Days Customer Service</h5>
+            <p>We provide customer service from 10 am to 6 pm. You can contact us via mail, phone or Facebook.</p>
+          </div>
+          <div class="col text-center">
+            <img src="images/icons/service-icon-3.png" class="img-fluid pb-4" alt="...">
+            <h5>Collaboration through Facebook</h5>
+            <p>Customers will be able to contact us directly through our Facebook page.</p>
+          </div>
+          <div class="col text-center">
+            <img src="images/icons/service-icon-4.png" class="img-fluid pb-4" alt="...">
+            <h5>Guarantee of privacy and fidelity</h5>
+            <p>If you receive a complaint or suspicious information, action will be taken according to the rules.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Toast -->
+      <div class="toast show align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="d-flex">
+          <div class="toast-body border border-5 border-end-0 border-top-0 border-bottom-0 border-info">
+            <i class="fas fa-gift fs-4"></i><span class="fs-6 ps-3">15% of on Prebooking Grab Now</span>
+          </div>
+          <button type="button" class="btn-close me-1 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our packages section -->
+    <section class="py-5" id="packages">
+      <div class="container">
+        <h1 class="text-center pb-5">Our Packages</h1>
+        <div class="row row-cols-lg-4 row-cols-md-2 row-cols-1 gy-5 pb-5">
+          <div class="col">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body ">
+                <h4 class="card-title font-1 fw-bold fs-1">$370</h4>
+                <h5 class="card-title font-2 fw-bold fs-4">Basic</h5>
+                <p class="card-text">For most businesses event like book fair, craft fair.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>limited space access
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Secuirty facility
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Event support
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Decoration design
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Per day bill
+                </li>
+              </ul>
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="card-link">
+                  <button type="button" class="btn rounded-pill button-style-2">Choose Plan</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body">
+                <h4 class="card-title font-1 fw-bold fs-1">$690</h4>
+                <h5 class="card-title font-2 fw-bold fs-4">Silver</h5>
+                <p class="card-text">For weddings with attractive plan and limited item.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Full space access
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Secuirty facility
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Food arrangement
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Decoration design
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Billed as shift
+                </li>
+              </ul>
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="card-link">
+                  <button type="button" class="btn rounded-pill button-style-2">Choose Plan</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col mt-4">
+            <div class="card border-0 shadow-lg custom-color-1 text-white">
+              <div class="position-relative">
+                <span class="position-absolute top-0 start-50 badge rounded-pill px-3 py-2 hot-tip">Hot</span>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title font-1 fw-bold fs-1 ">$1250</h4>
+                <h5 class="card-title font-2 fw-bold fs-4">Gold</h5>
+                <p class="card-text">For most attractive weddings with premium offers included.</p>
+              </div>
+              <ul class="list-group  list-group-flush">
+                <li class="list-group-item bg-transparent text-white border-0">
+                  <i class="fas fa-check-circle pe-2 opacity-75"></i>Full space access
+                </li>
+                <li class="list-group-item bg-transparent text-white border-0">
+                  <i class="fas fa-check-circle pe-2 opacity-75"></i>Dedicated Team
+                </li>
+                <li class="list-group-item bg-transparent text-white border-0">
+                  <i class="fas fa-check-circle pe-2 opacity-75"></i>Event support & Decoration
+                </li>
+                <li class="list-group-item bg-transparent text-white border-0">
+                  <i class="fas fa-check-circle pe-2 opacity-75"></i>Buffet food
+                </li>
+                <li class="list-group-item bg-transparent text-white border-0">
+                  <i class="fas fa-check-circle pe-2 opacity-75"></i>Pay as plan
+                </li>
+              </ul>
+              <div class="card-body pb-5 d-flex justify-content-center">
+                <a href="#" class="card-link">
+                  <button type="button" class="btn rounded-pill button-style-3">Choose Plan</button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg">
+              <div class="card-body ">
+                <h4 class="card-title font-1 fw-bold fs-1">$1800</h4>
+                <h5 class="card-title font-2 fw-bold fs-4">Platinum</h5>
+                <p class="card-text">For most corporate events and royal guests events.</p>
+              </div>
+              <ul class="list-group list-group-flush border-0">
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Full space access
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Secuirty facility
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Buffet Food
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Premium design
+                </li>
+                <li class="list-group-item border-0">
+                  <i class="far fa-check-circle pe-2"></i>Pay as plan
+                </li>
+              </ul>
+              <div class="card-body d-flex justify-content-center">
+                <a href="#" class="card-link">
+                  <button type="button" class="btn rounded-pill button-style-2">Choose Plan</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Notion At a glance -->
+    <section class="py-5">
+      <div class="container">
+        <h1 class="text-center pb-5">Notion Events at a Glance</h1>
+        <div class="row row-cols-lg-2 row-cols-1 gy-3 pb-3 align-items-md-center">
+          <div class="col embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" width="100%" height="340"
+              src="https://www.youtube.com/embed/r2mNLtFfh6Y" title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+          </div>
+          <div class="col font-1">
+            <h1 class="fw-bold">We do more than you expect</h1>
+            <p class="font-2 pb-5">We are promisable to you to give a beautiful experience on your next event. Contact
+              us to fix a meeting. We will reach you at your flexible time.</p>
+            <button type="button" class="btn  rounded-pill button-style-2">Fix a Meeting</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions and Side Banner -->
+    <section class="py-5" id="faq">
+      <div class="container">
+        <h1 class="text-center pb-5">Frequently Asked Questions</h1>
+        <div class="row align-items-md-center row-cols-lg-2 row-cols-md-2 row-cols-1 gy-5 pb-5">
+          <!-- FAQ -->
+          <div class="col">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button font-weight-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What are your fees?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Well, our fees are varries by the situation and design. We have some flexible packages including
+                    your requirements. If you customize our packages with your idea fees may increase or decrease. But
+                    we offer a standard class fees structure.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed font-weight-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Who will work on the event?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We will work on the event from start to end. You would not get worried about the management. This
+                    all up to us.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed font-weight-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What about security?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    We have professional guards who keeps the events very secure. Without them we have 360 degree cctv
+                    camera every where to monitor every seconds of every corners.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed font-weight-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Do you have any DJ or entertainment segment?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Yes but this is optional. If you choose any entertainment segment please check our packages.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- side Banner -->
+          <div class="col">
+            <img src="images/faq-image.jpg" class="img-fluid rounded-3" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback section -->
+    <section class="py-5" id="contact">
+      <div class="container-fluid w-75">
+        <h1 class="text-center pb-5">Leave a Message</h1>
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+          <label for="floatingTextarea">Comments</label>
+        </div>
+        <div class="text-center pt-4">
+          <a href="mailto:mdrashadul.rimon@gmail.com">
+            <button class="btn button-style-2" type="submit" value="submit">Submit</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="row bg-dark m-0 justify-content-center align-items-center">
+      <div class="row row-cols-lg-3 row-cols-md-3 row-cols-1 p-4 justify-content-center align-items-center">
+        <div class="col text-white">
+          <small>&copy; 2022 All right reserved by RAR</small>
+        </div>
+        <div class="row row-cols-lg-3 d-flex flex-column gy-1">
+          <h5 class="col text-white">Get the App</h5>
+          <a href="https://apps.apple.com/us/app/messenger/id454638411" target="_blank">
+            <img class="col" src="images/icons/App-Store-Badge.png" alt="">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.netflix.mediaclient" target="_blank">
+            <img class="col" src="images/icons/Google-Play-Badge.png" alt="">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script>
+    var toastElList = [].slice.call(document.querySelectorAll('.toast'))
+    var toastList = toastElList.map(function (toastEl) {
+      return new bootstrap.Toast(toastEl, option)
+    })
+  </script>
+</body>
+
+</html>
