@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnClick Handler</title>
+</head>
+
+<body>
+    <h1 onclick="alert('valo hoye ja beta')"> Event niye kilikbaji</h1>
+    <button onclick="document.body.style.backgroundColor='Yellow'">CLick Me Yellow</button>
+    <button onclick="makeRed()">Click Me Red</button>
+    <!--function diye call korechi-->
+
+    <button id="make-blue-button">Click Me Blue</button> <!-- id diye call korechi -->
+    <button id="make-green-button">Click me green</button>
+    <button id="make-pink-button">Click me pink</button>
+    <button id="make-goldenrod">Click me Golden Rod</button>
+    <button id="make-cyan">Click me Cyan</button>
+    <button id="make-lightBlue">Click me Light Blue</button>
+    <script src="js/event.js"></script>
+    <script>
+        // function makeRed() {
+        //     document.body.style.backgroundColor = 'red';
+        // }
+        // const blueButton = document.getElementById('make-blue-button');
+        // // console.log(blueButton)
+        // blueButton.onclick = makeBlue; //ekhane call korle vejal lagto screen load hoto protibar ei function a tai blue always thakto.. tai eivabe kaj korle function na diye sudhu function name dite hobe.
+
+        // function makeBlue() {
+        //     document.body.style.backgroundColor = 'blue';
+        // }
+
+        // // arekvabeo kora jai niche
+        // const pinkButton = document.getElementById('make-pink-button');
+        // pinkButton.onclick = function () { //eivabe korake anonymous function bole;
+        //     document.body.style.backgroundColor = 'coral';
+        // }
+        // // addEventListener use korbo. etai basically event creation. onclick er bodole event kore kora jai.
+        // const goldenButton = document.getElementById('make-goldenrod');
+        // goldenButton.addEventListener('click', makeGoldenRod);
+        // function makeGoldenRod() {
+        //     document.body.style.backgroundColor = 'goldenrod';
+        // }
+        // // Ei gulo eikhane comment kore rakhchi.. please check the event.js file next kaj gulor js
+    </script>
+</body>
+
+</html>
