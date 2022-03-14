@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <section class="bg-teal-600 w-3/4 my-8 mx-auto py-4 border-x-4 border-indigo-500 rounded-tl-3xl rounded-br-3xl">
+        <h1 class="text-center font-semibold text-2xl">ইঞ্জিনিয়ার ব্যাংকে আপনাকে স্বাগতম</h1>
+        <h4 class="text-center">এত ট্যাকা কি করবেন? তুলেন বেশি করে</h4>
+    </section>
+    <section class="mx-auto w-2/4">
+        <div class="grid grid-cols-3 gap-4 place-content-center text-white">
+            <div class="bg-green-500 py-8 rounded">
+                <h3 class="text-center">জমা</h3>
+                <h4 class="text-center text-2xl">৳<span id="deposit-total">00</span></h4>
+            </div>
+            <div class="bg-rose-400 py-8 rounded">
+                <h3 class="text-center">উত্তোলন</h3>
+                <h4 class="text-center text-2xl">৳<span id="widthdraw-total">00</span></h4>
+            </div>
+            <div class="bg-blue-400 py-8 rounded">
+                <h3 class="text-center">ব্যাল্যান্স</h3>
+                <h4 class="text-center text-2xl">৳<span id="balance-total">00</span></h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-auto w-2/4 my-8">
+        <div class="grid grid-cols-2 gap-4 place-content-center">
+            <div>
+                <span>জমাঃ </span>
+                <input type="text" id="deposit-input" class="border border-green-500 rounded"
+                    placeholder="ডিপোজিট করুন">
+                <button id="confirm-deposit" class="m-4 bg-green-500 px-5 py-1 rounded-full text-white">কনফার্ম</button>
+            </div>
+            <div>
+                <span>উত্তোলনঃ </span>
+                <input type="text" id="widthdraw-input" class="border border-rose-400 rounded"
+                    placeholder="উত্তোলন করুন">
+                <button id="confirm-widthdraw"
+                    class="m-4 bg-rose-400 px-5 py-1 rounded-full text-white">কনফার্ম</button>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
